@@ -13,6 +13,7 @@
 #define WebBrowserStopString NSLocalizedString(@"Stop", @"Stop command")
 #define WebBrowserRefreshString NSLocalizedString(@"Refresh", @"Reload command")
 
+
 @interface WebBrowserViewController () <UIWebViewDelegate, UITextFieldDelegate, AwesomeFloatingToolbarDelegate>
 @property (nonatomic, strong) UIWebView *webview;
 @property (nonatomic, strong) UITextField *textField;
@@ -110,6 +111,7 @@
     if (!URL.scheme) {
         
         // The user didn't type http: or https:
+        URLString = [URLString stringByReplacingOccurrencesOfString:@" " withString:@"+"];
         URL = [NSURL URLWithString:[NSString stringWithFormat:@"http://google.com/search?q=%@", URLString]];
         
     }
@@ -171,13 +173,13 @@
 #pragma mark - BLCAwesomeFloatingToolbarDelegate
 
 - (void) floatingToolbar:(AwesomeFloatingToolbar *)toolbar didSelectButtonWithTitle:(NSString *)title {
-    if ([title isEqual:NSLocalizedString(@"Back", @"Back command")]) {
+    if ([title isEqual:WebBrowserBackString]) {
         [self.webview goBack];
-    } else if ([title isEqual:NSLocalizedString(@"Forward", @"Forward command")]) {
+    } else if ([title isEqual:WebBrowserForwardString]) {
         [self.webview goForward];
-    } else if ([title isEqual:NSLocalizedString(@"Stop", @"Stop command")]) {
+    } else if ([title isEqual:WebBrowserStopString]) {
         [self.webview stopLoading];
-    } else if ([title isEqual:NSLocalizedString(@"Refresh", @"Reload command")]) {
+    } else if ([title isEqual:WebBrowserRefreshString]) {
         [self.webview reload];
     }
 }
