@@ -10,10 +10,11 @@
 		E0A54B391A92D3F900D6F34E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A54B381A92D3F900D6F34E /* main.m */; };
 		E0A54B3C1A92D3F900D6F34E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A54B3B1A92D3F900D6F34E /* AppDelegate.m */; };
 		E0A54B3F1A92D3F900D6F34E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A54B3E1A92D3F900D6F34E /* ViewController.m */; };
-		E0A54B421A92D3F900D6F34E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A54B401A92D3F900D6F34E /* Main.storyboard */; };
 		E0A54B441A92D3F900D6F34E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A54B431A92D3F900D6F34E /* Images.xcassets */; };
 		E0A54B471A92D3F900D6F34E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0A54B451A92D3F900D6F34E /* LaunchScreen.xib */; };
 		E0A54B531A92D3F900D6F34E /* BlocBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A54B521A92D3F900D6F34E /* BlocBrowserTests.m */; };
+		E0A54B5E1A92D46400D6F34E /* WebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A54B5D1A92D46400D6F34E /* WebBrowserViewController.m */; };
+		E0A54B611A93D60D00D6F34E /* AwesomeFloatingToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A54B601A93D60D00D6F34E /* AwesomeFloatingToolbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +35,15 @@
 		E0A54B3B1A92D3F900D6F34E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E0A54B3D1A92D3F900D6F34E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E0A54B3E1A92D3F900D6F34E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E0A54B411A92D3F900D6F34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0A54B431A92D3F900D6F34E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E0A54B461A92D3F900D6F34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E0A54B4C1A92D3F900D6F34E /* BlocBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A54B511A92D3F900D6F34E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0A54B521A92D3F900D6F34E /* BlocBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocBrowserTests.m; sourceTree = "<group>"; };
+		E0A54B5C1A92D46400D6F34E /* WebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebBrowserViewController.h; sourceTree = "<group>"; };
+		E0A54B5D1A92D46400D6F34E /* WebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebBrowserViewController.m; sourceTree = "<group>"; };
+		E0A54B5F1A93D60D00D6F34E /* AwesomeFloatingToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeFloatingToolbar.h; sourceTree = "<group>"; };
+		E0A54B601A93D60D00D6F34E /* AwesomeFloatingToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeFloatingToolbar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +89,10 @@
 				E0A54B3B1A92D3F900D6F34E /* AppDelegate.m */,
 				E0A54B3D1A92D3F900D6F34E /* ViewController.h */,
 				E0A54B3E1A92D3F900D6F34E /* ViewController.m */,
-				E0A54B401A92D3F900D6F34E /* Main.storyboard */,
+				E0A54B5C1A92D46400D6F34E /* WebBrowserViewController.h */,
+				E0A54B5D1A92D46400D6F34E /* WebBrowserViewController.m */,
+				E0A54B5F1A93D60D00D6F34E /* AwesomeFloatingToolbar.h */,
+				E0A54B601A93D60D00D6F34E /* AwesomeFloatingToolbar.m */,
 				E0A54B431A92D3F900D6F34E /* Images.xcassets */,
 				E0A54B451A92D3F900D6F34E /* LaunchScreen.xib */,
 				E0A54B361A92D3F900D6F34E /* Supporting Files */,
@@ -199,7 +206,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0A54B421A92D3F900D6F34E /* Main.storyboard in Resources */,
 				E0A54B471A92D3F900D6F34E /* LaunchScreen.xib in Resources */,
 				E0A54B441A92D3F900D6F34E /* Images.xcassets in Resources */,
 			);
@@ -221,6 +227,8 @@
 			files = (
 				E0A54B3F1A92D3F900D6F34E /* ViewController.m in Sources */,
 				E0A54B3C1A92D3F900D6F34E /* AppDelegate.m in Sources */,
+				E0A54B611A93D60D00D6F34E /* AwesomeFloatingToolbar.m in Sources */,
+				E0A54B5E1A92D46400D6F34E /* WebBrowserViewController.m in Sources */,
 				E0A54B391A92D3F900D6F34E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +252,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E0A54B401A92D3F900D6F34E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E0A54B411A92D3F900D6F34E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E0A54B451A92D3F900D6F34E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,6 +414,7 @@
 				E0A54B581A92D3F900D6F34E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0A54B591A92D3F900D6F34E /* Build configuration list for PBXNativeTarget "BlocBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				E0A54B5B1A92D3F900D6F34E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
