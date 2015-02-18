@@ -83,6 +83,8 @@
 - (void) viewWillLayoutSubviews {
     [super viewWillLayoutSubviews];
     // First, calculate some dimensions.
+    NSLog(@"Hello");
+    
     static const CGFloat itemHeight = 50;
     CGFloat browserHeight = CGRectGetHeight(self.view.bounds) - itemHeight;
     CGFloat width = CGRectGetWidth(self.view.bounds);
